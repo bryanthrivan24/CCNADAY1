@@ -79,8 +79,8 @@ ping www.feu.edu.ph 184.168.125.216
 
 TASK2: USE STANDARD ACCESS-LIST TO BLOCK OTHER CONTRIES/CLASSMATE:
 config t
-NO ip access-list standard NOCOL1
-ip access-list standard NOCOL1
+NO ip access-list standard NOADDCLASSMATE
+ip access-list standard NOADDCLASSMATE
 DENY 10.11.0.0 0.0.255.255
 DENY 10.21.0.0 0.0.255.255
 DENY 10.31.0.0 0.0.255.255
@@ -90,7 +90,7 @@ DENY 10.61.0.0 0.0.255.255
 DENY 10.71.0.0 0.0.255.255
 Permit Any
 Int Gi 0/0/1
- ip access-group NOCOL1 in
+ ip access-group NOADDCLASSMATE in
  end
 
 TASK3: When you become a Security Analyst:
