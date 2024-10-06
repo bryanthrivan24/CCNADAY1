@@ -206,6 +206,8 @@ ip http secure-server
 !Make Ping EASY
 ip host www.web8.com 192.168.103.8
 ip host www.web9.com 192.168.103.9
+ip host www.web5.com 192.168.103.5
+ip host www.web6.com 192.168.103.6
 ip host pc 10.12.1.10
 ip host cm 10.12.100.8
 ip host cm2 10.12.100.9
